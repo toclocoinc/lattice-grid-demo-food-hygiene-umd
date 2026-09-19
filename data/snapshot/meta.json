@@ -1,0 +1,116 @@
+{
+  "fetchedAt": "2026-09-19T09:41:34.731Z",
+  "fetchedAtMs": 1789810894751,
+  "seconds": 18.2,
+  "rows": 104425,
+  "authorities": 18,
+  "totalAuthorities": 363,
+  "totalBusinesses": 612609,
+  "source": "Food Standards Agency food hygiene rating scheme (FHRS and FHIS)",
+  "sourceUrl": "https://ratings.food.gov.uk/open-data",
+  "apiUrl": "https://api.ratings.food.gov.uk",
+  "licence": "Open Government Licence v3.0",
+  "columns": [
+    "id",
+    "name",
+    "authority",
+    "type",
+    "rating",
+    "score",
+    "scheme",
+    "postcode",
+    "ratingDate"
+  ],
+  "authoritiesList": [
+    {
+      "name": "Birmingham",
+      "count": 10239,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Leeds",
+      "count": 7419,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "North Yorkshire",
+      "count": 7101,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Glasgow City",
+      "count": 6632,
+      "scheme": "FHIS"
+    },
+    {
+      "name": "Manchester",
+      "count": 6426,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Somerset",
+      "count": 6126,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Highland",
+      "count": 6112,
+      "scheme": "FHIS"
+    },
+    {
+      "name": "Westminster",
+      "count": 5748,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Cornwall",
+      "count": 5390,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Dorset",
+      "count": 5162,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Edinburgh (City of)",
+      "count": 5140,
+      "scheme": "FHIS"
+    },
+    {
+      "name": "Fife",
+      "count": 5065,
+      "scheme": "FHIS"
+    },
+    {
+      "name": "Sheffield",
+      "count": 4870,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Bradford",
+      "count": 4673,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Durham",
+      "count": 4636,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Buckinghamshire",
+      "count": 4603,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Liverpool",
+      "count": 4597,
+      "scheme": "FHRS"
+    },
+    {
+      "name": "Bristol",
+      "count": 4486,
+      "scheme": "FHRS"
+    }
+  ]
+}
