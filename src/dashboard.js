@@ -670,6 +670,14 @@
       ),
     );
     footer.append(line);
+
+    const creditLine = el('p', null, 'Built with ');
+    const creditLink = el('a', null, 'Lattice Grid');
+    creditLink.href = 'https://www.latticegrid.dev/';
+    creditLine.append(creditLink);
+    creditLine.append(document.createTextNode('.'));
+    footer.append(creditLine);
+
     host.append(footer);
 
     built.destroy = () => {
