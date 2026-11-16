@@ -311,3 +311,43 @@ body {
   margin: 8px 0 0;
   padding: 6px 10px;
 }
+
+/* Phones: let the page scroll, and stack what sits side by side. */
+@media (max-width: 700px) {
+  html,
+  body {
+    height: auto;
+  }
+
+  #app {
+    height: auto;
+    min-height: 100%;
+    padding: 12px 12px 10px;
+  }
+
+  .head-note {
+    flex-wrap: wrap;
+  }
+
+  .freshness {
+    white-space: normal;
+  }
+
+  .kpi-strip {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .chart-wrap {
+    grid-template-columns: minmax(0, 1fr);
+    height: auto;
+  }
+
+  .chart-box {
+    height: 220px;
+  }
+
+  .tabs-host {
+    flex: 0 0 auto;
+    height: 640px;
+  }
+}
